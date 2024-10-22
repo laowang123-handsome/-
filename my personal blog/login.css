@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.loginPage{
+    width: 500px;
+    height: 500px;
+    /* background-color: red; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+}
+.login-text{
+    width: 100%;
+    height: 100px;
+    /* background-color: green; */
+    text-align: center;
+    line-height: 100px;
+    border: 3px solid black;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: black
+    
+}
+.login-input{
+    width: 100%;
+    height: 300px;
+    /* background-color: green; */
+    border: 3px solid black;
+
+}
+.login-input-style{
+    width: 100%;
+    height: 130px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.login-input-style label{ 
+    font-family: 幼圆;
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+ } 
+ input{
+    width: 250px;
+    height: 30px;
+ }
+.login-log{
+    height: 100px;
+    width: 100%;
+    /* background-color: orange; */
+    border: 3px solid black;
+}
+.menu{
+    background-color: orange; 
+    margin: 0 auto;
+    width: 130px;
+    height: 30px;
+    font-family: 幼圆;
+    color:black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.login-log div{
+    float: left;
+    margin: 40px 50px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}

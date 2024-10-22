@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆界面</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="loginPage">
+        <div class="login-text">
+            请您输入您的账号密码以登录博客
+        </div>
+        <div class="login-input">
+        <div class="login-input-style">
+            <label>账号：</label>
+            <input type="text">
+        </div>
+        <div class="login-input-style">
+            <label for="">密码：</label>
+            <input type="password">
+        </div>
+        </div>
+        <div class="login-log">
+            <div class="menu" id="js1">
+            登录
+            </div>
+            <div class="menu" id="js2">
+            我才不登
+            </div>
+        </div>
+   
+</body>
+<script>
+    var js1=document.getElementById('js1')
+    js1.onclick=function(){
+        alert('账号密码都输不对，洗洗睡吧')
+    }
+    var js2=document.getElementById('js2')
+    js2.onclick=function(){
+        alert('挺调皮，但我容忍你的小调皮')
+    }
+</script>
+</html>
